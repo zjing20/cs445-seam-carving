@@ -1,0 +1,6 @@
+ffmpeg-python
+jupyterlab
+matplotlib
+numpy
+opencv-python
+scikit-image

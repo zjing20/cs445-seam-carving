@@ -31,12 +31,12 @@ Optionally, you can create video for each result using `make_video()`.
   - `def h_cost(energy)`
   - `def v_mask(cost, path)`
   - `def h_mask(cost, path)`
-- Step 3: Generate the result image
+- Step 3: Generate the result image (**Seam Carving**)
   - Load Images
     - Note: You can add new images here, and REMEMBER to update `im` pointing to the target image so that input is specified correctly.
   - `def seam_cut(in_, output_height, output_width)`
   - Perform seam cutting
-- Extension 1: Seam Insertion
+- Extension 1: **Seam Insertion**
   - `def idx_extension_orig_ext(ids)`
   - `def idx_extension_carve_orig(ids,size)`
   - Perform seam insertion
@@ -44,10 +44,10 @@ Optionally, you can create video for each result using `make_video()`.
   - `def v_cost_forward(im,P=None)`
   - `def h_cost_forward(im,P=None)`
   - Perform seam cutting w/ forward energy
-- Extension 3: Object Removal
+- Extension 3: **Object Removal**
   - Perform object removal
     - horizontally & vertically
     - w/ & w/o forward energy
-- Extension 4: Content Amplification
+- Extension 4: **Content Amplification**
   - Amplify content using forward energy
 

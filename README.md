@@ -11,13 +11,11 @@ jupyter notebook
 
 ## Running
 
-There are several sections. You need to run them in order because former parts contain function definitions that are required by latter parts.
+There are several sections. You need to <u>run each section in order</u>. Former parts define functions that are required by latter parts. However, you can skip cells with outputs to save time.
 
-Image transformation is interleaved within the notebook. All image transformation cells come with outputs, which can help to locate.
+Image transformation is interleaved within the notebook. <u>All image transformation cells come with outputs</u>, which can help to locate.
 
-You can skip cells with outputs to save time.
-
-Optionally, you can create video for each result using `make_video()`.
+Optionally, you can create video for each result using `make_video(largest_im, im_list, file_name)`.
 
 ## Structure
 
